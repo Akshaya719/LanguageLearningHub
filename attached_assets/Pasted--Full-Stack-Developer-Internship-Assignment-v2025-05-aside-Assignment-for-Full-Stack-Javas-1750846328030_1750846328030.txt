@@ -1,0 +1,82 @@
+# Full Stack Developer Internship Assignment [v2025-05]
+
+<aside>
+💡
+
+Assignment for Full Stack Javascript Developer 
+
+</aside>
+
+This assignment contains a full-stack task. **You are expected to submit your solution** following the guidelines below.
+
+The goal is to assess your ability to:
+
+- Use External APIs
+- Implement CRUD Operation
+- Write clean, maintainable code using typescript
+- Integrate frontend and backend systems
+
+# Task Brief
+
+Build a full-stack web application that leverages the Google Gemini API via Google AI Studio to generate and manage tasks. 
+
+- User Sign up on the platform
+- Users input a topic (e.g., "Learn Python") and receive **5 auto-generated tasks** using the Google Gemini API.
+    - Example prompt:  `"Generate a list of 5 concise, actionable tasks to learn about [topic]. Return only the tasks, no numbering or formatting."`
+- Display generated tasks in the UI with an option to save them.
+- Use ShadCN as the UI Library
+- CRUD Operation with Task
+    - Save task to a database
+    - View all saved tasks in a list
+    - Edit or delete existing task
+- Add task completion status tracking and progress visualization.
+- Optional: Implement task categorization and filtering capabilities.
+
+---
+
+### Backend Framework
+
+- Use Express JS and PostgresQSL for backend and database (You can use any NodeJS framework for Web Development such as [Hono.dev](http://Hono.dev), [Deno Fresh](https://fresh.deno.dev/) or even Next JS). Using something other than Express JS improves the chance of selection to next round.
+- For communicating with Database you must use [Drizzle ORM](https://orm.drizzle.team/docs/overview)
+- For starting a PostgresQL instance, you can either use Docker to start it locally or use [Neon.tech](http://Neon.techhttps://neon.tech/) to get a free instance
+- The backend API must have proper error handling and payload validations
+- Create a `docker-compose.yml` file so that your backend can be started on any other computer.
+- Deploy your backend on [Render.com](http://Render.com) for [free](https://docs.render.com/free) OR on Deno Deploy
+- If you are not using Next JS, generate the API documentation for the API that you have created with swagger.
+- Optional: You may choose “[Bun](https://bun.sh/)” as your API runtime
+- Optional: Create an Endpoint which automatically generates API documentation for your backend
+
+## Frontend
+
+- The frontend should be created in ReactJS with one of the following frameworks:
+    - [Next JS](https://nextjs.org/) (version > 14.5) OR
+    - Astro JS (v5 with React) OR
+    - [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview)
+- For styling, you must use Tailwind CSS (with ShadCN UI)
+- The app must implement proper state management and authentication. Users should be able to manage their own individual todos.
+    - You can either use [clerk.com](http://clerk.com) OR Firebase Auth to implement authentication
+- Deploy the Code on [netlify.com](http://netlify.com) and get a free preview URL
+
+## Coding Style
+
+- The code should be uploaded to `main` branch of github repo
+- The code must be written in typescript (javascript submissions are rejected)
+
+## Submission
+
+- Make sure your code is working on the live deployed URL
+- Record a demo of working application on your local machine with [loom.com](http://loom.com/)
+- Upload the code on your own Github profile
+- Submit this form https://forms.gle/55tVYqyDZiAxXPsy5
+
+*Please note: Since many candidates will be submitting this assignment, make your app stand out by adding innovative features and enhancements based on your understanding. Only the strongest candidates will advance to the next round. As this is an assignment, you're welcome to showcase the code you write on your GitHub profile.*
+
+---
+
+### Helpful Resources
+
+https://www.youtube.com/watch?v=i_mAHOhpBSA
+
+https://www.youtube.com/watch?v=yXNEqyvA0OY
+
+https://www.youtube.com/watch?v=64Ldwi9YU4I&pp=ygUdZ29vZ2xlIGFpIHN0dWRpbyBhcGkgdHV0b3JpYWw%3D
