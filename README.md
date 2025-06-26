@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskMaster - AI-Powered Task Management Application
 
 TaskMaster is a full-stack web application that helps users manage tasks efficiently with AI-powered task generation. The application leverages Google Gemini API to create personalized learning tasks and provides comprehensive task management with progress tracking, categorization, and completion analytics.
@@ -139,3 +140,6 @@ The application is designed for deployment on Replit with:
 ## License
 
 MIT License - see LICENSE file for details
+=======
+# LanguageLearningHub
+>>>>>>> 6e0d1ee837a4eda6129bff36a08a5dee73fd6253
